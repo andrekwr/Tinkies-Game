@@ -22,6 +22,10 @@ public class StartScript : MonoBehaviour
         gm.SceneLoader("Start");
     }
 
+    public void Exit(){
+        Application.Quit();
+    }
+
     public void LevelSelector(){
         gm.SceneLoader("LevelSelector");
 
